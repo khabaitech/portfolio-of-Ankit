@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canvas</title>
+	<style type="text/css">
+		
+		#a{
+			height: 200px;
+			width: 200px;
+			border: 1px solid red;
+		}
+
+	</style>
+</head>
+<body>
+
+	<canvas id="a"></canvas>
+	<script type="text/javascript">
+		var c = document.getElementById('a');
+	var ctx = c.getContext("2d");
+	ctx.font ="30px sans-serif";
+	ctx.strokeText("Hello you",10,50);
+</script>
+
+</body>
+</html>
